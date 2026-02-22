@@ -1,0 +1,347 @@
+{
+  "common": {
+    "siteName": "Sharjah Asset Management",
+    "siteNameEn": "Sharjah Asset Management",
+    "languageToggle": "عربي",
+    "loading": "Loading...",
+    "continue": "Continue",
+    "learnMore": "Learn More",
+    "startJourney": "Start Your Journey",
+    "back": "Back"
+  },
+  "nav": {
+    "home": "Home",
+    "awardSelection": "Award Selection",
+    "aboutAward": "About the Award",
+    "howToApply": "How to Apply",
+    "awards": "Awards",
+    "aboutUs": "About Us",
+    "contactUs": "Contact Us"
+  },
+  "hero": {
+    "badge": "SAM Stars Excellence Award Portal",
+    "title": "SAM Stars Excellence Award 2026",
+    "subtitle": "Discover excellence criteria and submit your application now to compete in the SAM Stars Excellence Award. A program that fosters a culture of creativity and innovation at Sharjah Asset Management.",
+    "ctaLearnMore": "Learn More",
+    "ctaStart": "Start Your Journey"
+  },
+  "about": {
+    "sectionTitle": "About the Award",
+    "mission": "Mission",
+    "missionText": "Promoting a culture of excellence, creativity, and innovation at Sharjah Asset Management by incentivizing outstanding performance and leading practices.",
+    "vision": "Vision",
+    "visionText": "To position the SAM Stars Excellence Award as the premier benchmark for evaluating and rewarding institutional excellence across the emirate.",
+    "values": "Values",
+    "valuesText": "Transparency, Fairness, Innovation, Excellence, Sustainability."
+  },
+  "steps": {
+    "sectionTitle": "How to Apply",
+    "step1Title": "Select",
+    "step1Desc": "Choose the appropriate category for your application.",
+    "step2Title": "Understand",
+    "step2Desc": "Learn about the evaluation criteria and weights for your category.",
+    "step3Title": "Prepare",
+    "step3Desc": "Gather the required documents and evidence.",
+    "step4Title": "Compile",
+    "step4Desc": "Compile all information into the application form.",
+    "step5Title": "Review",
+    "step5Desc": "Carefully review your application before submission.",
+    "step6Title": "Submit",
+    "step6Desc": "Submit your application and track its status through the portal.",
+    "ctaStart": "Start Applying Now"
+  },
+  "sections": {
+    "aboutUs": "About Us",
+    "aboutUsText": "Sharjah Asset Management is a leading government institution managing and developing real estate and investment assets for the Emirate of Sharjah.",
+    "training": "Training",
+    "trainingText": "We offer specialized training programs to enhance competencies and build capabilities in asset management and investment.",
+    "investments": "Investments",
+    "investmentsText": "We strive to achieve sustainable returns through a diversified investment portfolio spanning real estate and strategic projects.",
+    "contactUs": "Contact Us",
+    "contactUsText": "We welcome your inquiries and feedback. Reach out via email or phone.",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "awardSelection": {
+    "pageTitle": "Select Award Category",
+    "pageSubtitle": "Choose the category you wish to participate in to begin the application process",
+    "selectCategory": "Select Category",
+    "nonSupervisory": "Non-Supervisory Categories",
+    "supervisory": "Supervisory Categories",
+    "selectGroup": "Select Group",
+    "categories": {
+      "department": {
+        "title": "Outstanding Department",
+        "description": "Recognizing departments that achieved exceptional performance and operational excellence."
+      },
+      "employee": {
+        "title": "Outstanding Employee",
+        "description": "Acknowledging employees who demonstrated excellence in their performance and outstanding contributions."
+      },
+      "project": {
+        "title": "Outstanding Project / Initiative",
+        "description": "Celebrating innovative projects that achieved tangible results and positive impact."
+      },
+      "green": {
+        "title": "Green Practices",
+        "description": "Honoring initiatives and practices that promote environmental sustainability and green excellence."
+      },
+      "knowledge": {
+        "title": "Knowledge Management",
+        "description": "Recognizing distinguished efforts in managing, transferring, and sharing knowledge within the organization."
+      }
+    }
+  },
+  "ceo": {
+    "sectionTitle": "CEO Message",
+    "text": "As a cornerstone of the UAE 2030 Vision and the National Program to Transform Technology, our core values at Sharjah Asset Management (SAM) emphasize equity and empowerment. Our mission is to create an environment that nurtures young talent, fosters productivity, and promotes a culture of excellence through our unique SAM Internal Excellence Award Program. This approach not only enhances our internal processes and employee satisfaction but also positively impacts our customers and society. Our commitment to these values empowers us to make informed decisions, drive sustainable growth, and lead with impact, embodying our dedication to performance-based results."
+  },
+  "timeline": {
+    "sectionTitle": "Timeline",
+    "step1": "Launch",
+    "step2": "Deadline",
+    "step3": "Evaluation & Interviews",
+    "step4": "Ceremony"
+  },
+  "awards": {
+    "sectionTitle": "Awards",
+    "certificate": "Certificate",
+    "trophy": "Trophy",
+    "financialReward": "Financial Reward"
+  },
+  "awardValues": {
+    "sectionTitle": "The Five Award Values",
+    "innovation": "Innovation",
+    "flexibility": "Flexibility",
+    "prideInWork": "Pride in Work",
+    "knowledgeSharing": "Knowledge Sharing",
+    "continuousAdaptation": "Continuous Adaptation"
+  },
+  "categoryDetails": {
+    "backButton": "Back",
+    "askNujoom": "Ask Nujoom",
+    "apply": "Apply",
+    "applyNow": "Apply Now",
+    "checkEligibility": "Check Eligibility",
+    "viewCriteria": "View Criteria",
+    "awardCategory": "Award Category",
+    "overview": "Overview",
+    "targetAudience": "Target Audience",
+    "assessmentCriteria": "Assessment Criteria",
+    "rewards": "Rewards",
+    "eligibility": "Eligibility",
+    "requirements": "Requirements",
+    "note": "Note",
+    "subcategories": "Subcategories",
+    "totalPoints": "Total Points",
+    "points": "Points",
+    "readyToApply": "Ready to Apply?",
+    "ctaDescriptionEligibility": "Check your eligibility first, then proceed to submit your application.",
+    "ctaDescriptionDirect": "Start your application now and submit your nomination for this award."
+  },
+  "eligibilityCheck": {
+    "pageTitle": "Eligibility Check",
+    "pageSubtitle": "Answer the following questions to verify your eligibility",
+    "selectSubcategory": "Select Subcategory",
+    "yes": "Yes",
+    "no": "No",
+    "submit": "Submit",
+    "successTitle": "Application Submitted Successfully",
+    "successMessage": "Your answers have been submitted, please wait for approval.",
+    "backToCategory": "Back to Category"
+  },
+  "applyPage": {
+    "comingSoonTitle": "Application Coming Soon",
+    "comingSoonMessage": "The application form for this award category is currently being prepared.",
+    "comingSoonNote": "Check back soon for updates",
+    "backToCategory": "Back to Category"
+  },
+  "registrationForm": {
+    "pageTitle": "Registration Form",
+    "pageSubtitle": "Please fill out this form to nominate for the below categories.",
+    "step1Title": "Choose the Award",
+    "step2Title": "Reason for Nomination",
+    "step3Title": "Nominee Information",
+    "categories": {
+      "department": "The Distinguished Department Category",
+      "employee": "The Distinguished Employee Category",
+      "project": "The Distinguished Project / Initiative Category",
+      "knowledge": "The Knowledge Management Category",
+      "green": "The Green Practices Category"
+    },
+    "selectSubcategory": "Select Subcategory",
+    "eligibilityTitle": "Eligibility Questions",
+    "eligibilitySubtitle": "Please answer the following questions related to your selected category.",
+    "yes": "Yes",
+    "no": "No",
+    "reasonPlaceholder": "Please describe the reason for this nomination...",
+    "wordCount": "{count} / {max} words",
+    "wordLimitExceeded": "Word limit exceeded",
+    "nomineeSubtitle": "Nominee's Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "jobTitle": "Job Title",
+    "idNumber": "Employee ID",
+    "yearsExperience": "Years of Experience",
+    "nomineeCompany": "Nominee's Company",
+    "nomineeDepartment": "Nominee's Department",
+    "mobileNumber": "Nominee's Mobile Number",
+    "emailAddress": "Nominee's E-mail Address",
+    "deptFieldsTitle": "Department Information",
+    "deptNameCompany": "Department Name & Company",
+    "deptLeaderName": "Department Leader Name",
+    "deptManagerPhone": "Department Manager Phone",
+    "deptManagerEmail": "Department Manager Work Email",
+    "projectFieldsTitle": "Project Information",
+    "projectCompany": "Company Where Project Was Executed",
+    "projectTeamMembers": "Employees Who Worked on the Project",
+    "teamMemberName": "Name",
+    "teamMemberTitle": "Job Title",
+    "addTeamMember": "Add Employee",
+    "removeTeamMember": "Remove",
+    "projectManagerName": "Project Manager Name",
+    "projectManagerTitle": "Project Manager Job Title",
+    "projectManagerPhone": "Project Manager Mobile",
+    "projectManagerEmail": "Project Manager Work Email",
+    "unsungFieldsTitle": "Direct Supervisor Information",
+    "supervisorName": "Direct Supervisor Name",
+    "supervisorId": "Supervisor Employee ID",
+    "yearsAtSAM": "Years of Experience at SAM",
+    "supervisorEmail": "Supervisor Work Email",
+    "unsungJobCategory": "Please select the job category of the nominated employee",
+    "unsungJobCategoryHint": "Non-administrative employees working in support functions",
+    "unsungJobCategoryPlaceholder": "-- Select Job Category --",
+    "hrRepName": "HR Representative Name",
+    "hrRepSignature": "HR Representative Signature",
+    "directSupervisorSignature": "Direct Supervisor Signature",
+    "signatureUploadHint": "Please upload a signature image (PNG, JPG, PDF)",
+    "submitButton": "Submit Registration Form",
+    "backToCategory": "Back to Category",
+    "statusQualified": "Qualified",
+    "statusUnqualified": "Unqualified",
+    "statusWaiting": "Waiting Approval",
+    "qualifiedTitle": "You Are Qualified!",
+    "qualifiedMessage": "Congratulations! Based on your responses, you meet the eligibility criteria for this award category. Your registration has been submitted successfully.",
+    "unqualifiedTitle": "Not Qualified",
+    "unqualifiedMessage": "Unfortunately, based on your responses, you do not meet the eligibility criteria for this award category.",
+    "reasons": "Reasons",
+    "waitingTitle": "Registration Submitted",
+    "waitingMessage": "Your registration has been submitted successfully and is pending approval. You will be notified once it has been reviewed."
+  },
+  "footer": {
+    "rights": "© 2026 Sharjah Asset Management. All rights reserved.",
+    "poweredBy": "Powered by AI BRAINS"
+  },
+  "submission": {
+    "pageTitle": "Award Submission",
+    "backToCategory": "Back to Category",
+    "backToCategories": "Back to Categories",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "introTitle": "Welcome",
+    "introDescription": "Click Next to begin filling out your submission criteria.",
+    "selectSubcategory": "Select Subcategory",
+    "selectSubcategoryDesc": "Choose the subcategory that best matches your nomination.",
+    "criteriaTitle": "Submission Criteria",
+    "reviewTitle": "Review Your Submission",
+    "reviewSubtitle": "Please review all your responses carefully before submitting.",
+    "reviewEdit": "Edit",
+    "steps": {
+      "subcategory": "Subcategory",
+      "intro": "Introduction",
+      "criteria": "Criteria",
+      "review": "Review",
+      "confirmation": "Confirmation"
+    },
+    "criteria": {
+      "points": "Points",
+      "totalPoints": "Total Points",
+      "evidence": "Supporting Evidence",
+      "evidenceHeader": "Evidence:",
+      "examplesHeader": "Examples:",
+      "subCriteria": "Sub-Criteria",
+      "responseLabel": "Your Response",
+      "responsePlaceholder": "Enter your detailed response here...",
+      "words": "words",
+      "characters": "characters",
+      "attachments": "Attachments",
+      "maxFilesLabel": "max {max} files",
+      "dragDropText": "Click or drag files to upload",
+      "acceptedTypes": "PDF, PPTX, DOCX, XLSX, JPG, PNG (max 10MB)",
+      "enablersGroup": "Enablers",
+      "resultsGroup": "Results"
+    },
+    "dosAndDonts": {
+      "title": "Submission Guidelines",
+      "dosTitle": "Do's",
+      "dontsTitle": "Don'ts",
+      "do1": "Provide specific, measurable evidence for each criterion.",
+      "do2": "Include relevant data, charts, and supporting documents.",
+      "do3": "Ensure all information is accurate and verifiable.",
+      "dont1": "Do not include irrelevant or generic information.",
+      "dont2": "Do not exceed the word limit for any criterion.",
+      "dont3": "Do not submit without reviewing your responses.",
+      "dont4": "Do not upload files exceeding the size limit.",
+      "technicalReqTitle": "Technical Requirements for Nomination and Receipt of Applications",
+      "reportIntro": "All submissions must include a detailed report covering, at a minimum, the following areas:",
+      "req1": "Achievements – Key accomplishments of the organizational unit.",
+      "req2": "\"As-Is\" Situation and Implemented Changes – Description of the initial state and the changes made that contributed to the achievements.",
+      "req3": "Measurable Results – Quantitative and qualitative evidence supporting the achievements.",
+      "req4": "Economic Value Added – Demonstration of financial or operational value created.",
+      "req5": "Critical Success Factors – Elements that were essential to achieving the results.",
+      "req6": "Relevant Key Performance Indicators and Future Targets – KPIs used to measure success and targets for continuous improvement.",
+      "req7": "Other Key Data and Feedback – Any additional information that supports the report.",
+      "additionalIntro": "In addition:",
+      "add1": "Applicants shall prepare a comprehensive presentation using standard office tools for the personal interview, covering all required criteria.",
+      "add2": "All relevant evidence should be provided for each criterion. Evidence may include emails, PowerPoint slides, reports, images, or other appropriate formats.",
+      "add3": "It is strongly recommended that all evidence be compiled digitally in a logical, sequential manner."
+    },
+    "review": {
+      "files": "files",
+      "confirmationText": "I confirm that all information provided is accurate and complete to the best of my knowledge."
+    },
+    "subcategoryLabel": "Select Your Subcategory",
+    "subcategoryHint": "Choose the specific subcategory that matches your nomination.",
+    "alreadySubmitted": {
+      "title": "Already Submitted",
+      "message": "You have already submitted your application for this category. You cannot submit again."
+    },
+    "confirmation": {
+      "title": "Submission Successful!",
+      "message": "Your submission has been received. You will be notified once it has been reviewed.",
+      "referenceLabel": "Reference Number",
+      "backToCategory": "Back to Category",
+      "goHome": "Go Home"
+    },
+    "validation": {
+      "summaryTitle": "Please fix the following issues before proceeding:",
+      "responseRequired": "A response is required for this criterion.",
+      "responseTooShort": "Response must be at least 10 characters long.",
+      "wordLimitExceeded": "Word count ({current}) exceeds the maximum of {max} words.",
+      "fileLimitExceeded": "Too many attachments. Maximum allowed is {max} files."
+    },
+    "draft": {
+      "save": "Save Draft",
+      "saved": "Saved!",
+      "lastSaved": "Last saved at {time}"
+    },
+    "info": {
+      "personalTitle": "Personal Information",
+      "personalSubtitle": "Please provide your personal details.",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "employeeId": "Employee ID",
+      "employeeIdPlaceholder": "Enter your employee ID",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "nominationReason": "Reason for Nomination",
+      "nominationReasonPlaceholder": "Describe why you are being nominated...",
+      "additionalTitle": "Additional Information",
+      "additionalSubtitle": "Please provide any additional details required.",
+      "selectPlaceholder": "Select..."
+    }
+  }
+}

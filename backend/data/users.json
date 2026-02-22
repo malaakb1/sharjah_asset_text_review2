@@ -1,0 +1,1971 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "password123",
+      "registered": false,
+      "applied": false,
+      "appliedCategories": [],
+      "draft": null,
+      "isAdmin": true,
+      "isDirector": true
+    },
+    {
+      "id": 2,
+      "email": "completed@example.com",
+      "password": "password123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "employee-nonsupervisory-administrative"
+      ],
+      "registrationData": {
+        "category": "employee",
+        "employeeGroup": "nonsupervisory",
+        "employeeSubcat": "administrative",
+        "firstName": "أحمد",
+        "lastName": "محمد",
+        "idNumber": "784199012345678",
+        "mobile": "+971501234567",
+        "email": "completed@example.com"
+      },
+      "draft": null
+    },
+    {
+      "id": 4,
+      "email": "test@gmail.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "employee-nonsupervisory-administrative",
+        "project",
+        "employee-supervisory-leader",
+        "department"
+      ],
+      "draft": {
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {
+            "admin-years": "yes",
+            "admin-achievements": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "no",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {
+            "leader-position": "yes",
+            "leader-24months": "yes",
+            "leader-dept": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        }
+      },
+      "categoryStatuses": {
+        "employee-nonsupervisory-administrative": "qualified",
+        "project": "unqualified",
+        "employee-supervisory-leader": "qualified",
+        "department": "waiting-approval"
+      },
+      "registrationData": {
+        "category": "department",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {}
+      }
+    },
+    {
+      "id": 5,
+      "email": "abood@gmail.com",
+      "password": "a",
+      "registered": true,
+      "applied": false,
+      "isAdmin": true,
+      "isDirector": true,
+      "appliedCategories": [
+        "project",
+        "employee-nonsupervisory-administrative",
+        "employee-nonsupervisory-specialist",
+        "employee-nonsupervisory-customerservice",
+        "employee-supervisory-leader",
+        "green"
+      ],
+      "draft": {
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "jobTitle": "",
+          "idNumber": "w",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "w",
+          "email": "w",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "knowledge": {
+          "selectedCategory": "knowledge",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-specialist": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "specialist",
+          "answers": {
+            "spec-years": "yes",
+            "spec-qualification": "yes",
+            "spec-no-supervisory": "yes",
+            "spec-office": "no"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": ""
+        },
+        "employee-nonsupervisory-technical": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "technical",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-customerservice": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "customerservice",
+          "answers": {
+            "cs-external": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-unsung": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "unsung",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-supervisory-futureleader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "futureleader",
+          "answers": {
+            "fl-position": "yes",
+            "fl-years": "yes",
+            "leader-dept": "no"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "jobTitle": "",
+          "idNumber": "w",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "w",
+          "email": "w",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        }
+      },
+      "submissions": {
+        "employee-nonsupervisory-administrative": {
+          "referenceNumber": "SAM-2026-EMP-001",
+          "submittedAt": "2026-02-16T10:00:00.000Z"
+        },
+        "project": {
+          "referenceNumber": "SAM-MLP59AG9-8GYT",
+          "submittedAt": "2026-02-16T12:22:05.097Z"
+        }
+      },
+      "categoryStatuses": {
+        "project": "qualified",
+        "employee-nonsupervisory-administrative": "qualified",
+        "employee-nonsupervisory-specialist": "unqualified",
+        "employee-nonsupervisory-customerservice": "qualified",
+        "employee-supervisory-leader": "qualified",
+        "green": "qualified"
+      },
+      "registrationData": {
+        "category": "green",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "jobTitle": "w",
+        "idNumber": "w",
+        "yearsExperience": "w",
+        "company": "w",
+        "department": "w",
+        "mobile": "ww",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {}
+      }
+    },
+    {
+      "id": 6,
+      "email": "waseem@gmail.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department",
+        "project"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "ص",
+          "firstName": "ص",
+          "lastName": "ص",
+          "idNumber": "ص",
+          "mobile": "ص",
+          "email": "ص"
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        }
+      },
+      "submissions": {
+        "project": {
+          "referenceNumber": "SAM-MLP6V04J-GNJY",
+          "submittedAt": "2026-02-16T13:06:57.763Z"
+        }
+      },
+      "categoryStatuses": {
+        "department": "waiting-approval",
+        "project": "qualified"
+      },
+      "registrationData": {
+        "category": "project",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "ص",
+        "lastName": "ص",
+        "idNumber": "ص",
+        "mobile": "ص",
+        "email": "ص",
+        "nominationReason": "ص",
+        "answers": {
+          "proj-completed": "yes",
+          "proj-duration": "yes",
+          "proj-charter": "yes",
+          "proj-kpi": "yes"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "email": "a@gmail.com",
+      "password": "a",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "project",
+        "employee-nonsupervisory-unsung"
+      ],
+      "draft": {
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-specialist": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "specialist",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-technical": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "technical",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-unsung": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "unsung",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-supervisory-futureleader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "futureleader",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-customerservice": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "customerservice",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "project": "qualified",
+        "employee-nonsupervisory-unsung": "waiting-approval"
+      },
+      "registrationData": {
+        "category": "employee",
+        "employeeGroup": "nonsupervisory",
+        "employeeSubcat": "unsung",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {}
+      }
+    },
+    {
+      "id": 8,
+      "email": "123@gmail.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department",
+        "employee-nonsupervisory-administrative"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {
+            "admin-years": "yes",
+            "admin-achievements": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "department": "waiting-approval",
+        "employee-nonsupervisory-administrative": "qualified"
+      },
+      "registrationData": {
+        "category": "employee",
+        "employeeGroup": "nonsupervisory",
+        "employeeSubcat": "administrative",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {
+          "admin-years": "yes",
+          "admin-achievements": "yes"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "email": "1@g.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department",
+        "employee-supervisory-leader",
+        "employee-supervisory-futureleader",
+        "employee-nonsupervisory-administrative",
+        "project",
+        "knowledge"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {
+            "leader-position": "yes",
+            "leader-24months": "yes",
+            "leader-dept": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-supervisory-futureleader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "futureleader",
+          "answers": {
+            "fl-position": "yes",
+            "fl-years": "yes"
+          },
+          "nominationReason": "2w",
+          "firstName": "W",
+          "lastName": "W",
+          "idNumber": "W",
+          "mobile": "W",
+          "email": "W"
+        },
+        "employee-nonsupervisory-unsung": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "unsung",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-customerservice": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "customerservice",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-technical": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "technical",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {
+            "admin-years": "yes",
+            "admin-achievements": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "W",
+          "firstName": "W",
+          "lastName": "W",
+          "idNumber": "W",
+          "mobile": "W",
+          "email": "W"
+        },
+        "knowledge": {
+          "selectedCategory": "knowledge",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "W",
+          "firstName": "W",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "W",
+          "email": "W"
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "department": "waiting-approval",
+        "employee-supervisory-leader": "qualified",
+        "employee-supervisory-futureleader": "qualified",
+        "employee-nonsupervisory-administrative": "qualified",
+        "project": "qualified",
+        "knowledge": "waiting-approval"
+      },
+      "registrationData": {
+        "category": "knowledge",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "W",
+        "lastName": "W",
+        "idNumber": "W",
+        "mobile": "W",
+        "email": "W",
+        "nominationReason": "W",
+        "answers": {}
+      }
+    },
+    {
+      "id": 10,
+      "email": "2@gmail.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "project",
+        "knowledge",
+        "employee-nonsupervisory-administrative"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "W",
+          "email": "W"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "knowledge": {
+          "selectedCategory": "knowledge",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "2`",
+          "firstName": "2",
+          "lastName": "2",
+          "idNumber": "2",
+          "mobile": "2",
+          "email": "2"
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {
+            "admin-years": "yes",
+            "admin-achievements": "yes"
+          },
+          "nominationReason": "W",
+          "firstName": "W",
+          "lastName": "W",
+          "idNumber": "W",
+          "mobile": "W",
+          "email": "W"
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "project": "qualified",
+        "knowledge": "waiting-approval",
+        "employee-nonsupervisory-administrative": "qualified"
+      },
+      "registrationData": {
+        "category": "employee",
+        "employeeGroup": "nonsupervisory",
+        "employeeSubcat": "administrative",
+        "firstName": "W",
+        "lastName": "W",
+        "idNumber": "W",
+        "mobile": "W",
+        "email": "W",
+        "nominationReason": "W",
+        "answers": {
+          "admin-years": "yes",
+          "admin-achievements": "yes"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "email": "1231223@g.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "department": "waiting-approval"
+      },
+      "registrationData": {
+        "category": "department",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {}
+      }
+    },
+    {
+      "id": 12,
+      "email": "4234@g.com",
+      "password": "324432",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department",
+        "project"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-specialist": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "specialist",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-technical": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "technical",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-customerservice": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "customerservice",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-unsung": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "unsung",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-supervisory-futureleader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "futureleader",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "knowledge": {
+          "selectedCategory": "knowledge",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "department": "waiting-approval",
+        "project": "qualified"
+      },
+      "registrationData": {
+        "category": "project",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {
+          "proj-completed": "yes",
+          "proj-duration": "yes",
+          "proj-charter": "yes",
+          "proj-kpi": "yes"
+        }
+      }
+    },
+    {
+      "id": 13,
+      "email": "777@gmail.com",
+      "password": "123",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "project",
+        "green"
+      ],
+      "draft": {
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-charter": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "employee-nonsupervisory-specialist": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "specialist",
+          "answers": {
+            "spec-years": "yes",
+            "spec-qualification": "yes",
+            "spec-no-supervisory": "yes",
+            "spec-office": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "idNumber": "w",
+          "mobile": "w",
+          "email": "w"
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {
+            "admin-years": "yes",
+            "admin-achievements": "yes"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "idNumber": "",
+          "mobile": "",
+          "email": ""
+        }
+      },
+      "submissions": {
+        "project": {
+          "referenceNumber": "SAM-MLQBR1IP-JKAD",
+          "submittedAt": "2026-02-17T08:11:37.201Z"
+        },
+        "employee-nonsupervisory-administrative": {
+          "referenceNumber": "SAM-MLQBWW9J-6E4R",
+          "submittedAt": "2026-02-17T08:16:10.327Z"
+        }
+      },
+      "categoryStatuses": {
+        "project": "qualified",
+        "green": "waiting-approval"
+      },
+      "registrationData": {
+        "category": "green",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "idNumber": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "ww",
+        "answers": {}
+      }
+    },
+    {
+      "id": 14,
+      "email": "dadad@gmail.com",
+      "password": "a",
+      "registered": true,
+      "applied": false,
+      "appliedCategories": [
+        "department",
+        "project"
+      ],
+      "draft": {
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "jobTitle": "w",
+          "idNumber": "w",
+          "yearsExperience": "w",
+          "company": "w",
+          "department": "w",
+          "mobile": "w",
+          "email": "w",
+          "deptNameCompany": "w",
+          "deptLeaderName": "w",
+          "deptManagerPhone": "w",
+          "deptManagerEmail": "w",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "knowledge": {
+          "selectedCategory": "knowledge",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "green": {
+          "selectedCategory": "green",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "project": {
+          "selectedCategory": "project",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {
+            "proj-completed": "yes",
+            "proj-duration": "yes",
+            "proj-kpi": "yes"
+          },
+          "nominationReason": "w",
+          "firstName": "w",
+          "lastName": "w",
+          "jobTitle": "w",
+          "idNumber": "w",
+          "yearsExperience": "w",
+          "company": "w",
+          "department": "w",
+          "mobile": "w",
+          "email": "w",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "w",
+          "projectTeamMembers": [
+            {
+              "name": "w",
+              "title": "w"
+            }
+          ],
+          "projectManagerName": "w",
+          "projectManagerTitle": "w",
+          "projectManagerPhone": "w",
+          "projectManagerEmail": "w",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        },
+        "employee-nonsupervisory-administrative": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "administrative",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": ""
+        }
+      },
+      "submissions": {},
+      "categoryStatuses": {
+        "department": "qualified",
+        "project": "qualified"
+      },
+      "registrationData": {
+        "category": "project",
+        "employeeGroup": null,
+        "employeeSubcat": "",
+        "firstName": "w",
+        "lastName": "w",
+        "jobTitle": "w",
+        "idNumber": "w",
+        "yearsExperience": "w",
+        "company": "w",
+        "department": "w",
+        "mobile": "w",
+        "email": "w",
+        "nominationReason": "w",
+        "answers": {
+          "proj-completed": "yes",
+          "proj-duration": "yes",
+          "proj-kpi": "yes"
+        },
+        "projectCompany": "w",
+        "projectTeamMembers": [
+          {
+            "name": "w",
+            "title": "w"
+          }
+        ],
+        "projectManagerName": "w",
+        "projectManagerTitle": "w",
+        "projectManagerPhone": "w",
+        "projectManagerEmail": "w"
+      }
+    },
+    {
+      "id": 15,
+      "email": "cada@gmail.com",
+      "password": "a",
+      "registered": false,
+      "applied": false,
+      "appliedCategories": [],
+      "draft": {
+        "employee": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-supervisory-leader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "leader",
+          "answers": {
+            "leader-emp-count": "3"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-supervisory-futureleader": {
+          "selectedCategory": "employee",
+          "employeeGroup": "supervisory",
+          "employeeSubcat": "futureleader",
+          "answers": {
+            "leader-dept": "no"
+          },
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        },
+        "employee-nonsupervisory-unsung": {
+          "selectedCategory": "employee",
+          "employeeGroup": "nonsupervisory",
+          "employeeSubcat": "unsung",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": "",
+          "isDirector": ""
+        },
+        "department": {
+          "selectedCategory": "department",
+          "employeeGroup": null,
+          "employeeSubcat": "",
+          "answers": {},
+          "nominationReason": "",
+          "firstName": "",
+          "lastName": "",
+          "jobTitle": "",
+          "idNumber": "",
+          "yearsExperience": "",
+          "company": "",
+          "department": "",
+          "mobile": "",
+          "email": "",
+          "deptNameCompany": "",
+          "deptLeaderName": "",
+          "deptManagerPhone": "",
+          "deptManagerEmail": "",
+          "projectCompany": "",
+          "projectTeamMembers": [
+            {
+              "name": "",
+              "title": ""
+            }
+          ],
+          "projectManagerName": "",
+          "projectManagerTitle": "",
+          "projectManagerPhone": "",
+          "projectManagerEmail": "",
+          "supervisorName": "",
+          "supervisorId": "",
+          "yearsAtSAM": "",
+          "supervisorEmail": "",
+          "unsungJobCategory": "",
+          "hrRepName": "",
+          "hrRepSignature": "",
+          "directSupervisorSignature": ""
+        }
+      },
+      "submissions": {}
+    }
+  ]
+}
