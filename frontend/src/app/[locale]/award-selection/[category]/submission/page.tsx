@@ -283,7 +283,7 @@ export default function SubmissionPage() {
 
             if (!isPreview) {
                 // Submit to Backend (only in real mode)
-                const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+                const API_BASE_URL = "/api/v1";
                 fetch(`${API_BASE_URL}/auth/submit-application/${userId}`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },

@@ -18,7 +18,7 @@ export default function CEOSection() {
           <div className="flex-shrink-0">
             <div className="relative w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden shadow-lg border-4 border-sam-gray-100">
               <Image
-                src="/CEO/ceo.png"
+                src="/ceo/ceo.png"
                 alt="CEO"
                 fill
                 className="object-cover"

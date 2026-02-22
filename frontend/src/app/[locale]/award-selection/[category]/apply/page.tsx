@@ -178,7 +178,7 @@ export default function RegistrationFormPage() {
     // Load draft on mount
     const loadDraft = async () => {
       try {
-        const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+        const API_BASE_URL = "/api/v1";
         const response = await fetch(`${API_BASE_URL}/auth/draft/${user.id}`);
         if (response.ok) {
           const data = await response.json();
@@ -278,7 +278,7 @@ export default function RegistrationFormPage() {
       };
 
       try {
-        const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+        const API_BASE_URL = "/api/v1";
         // First get existing drafts, then update only this category's draft
         const getRes = await fetch(`${API_BASE_URL}/auth/draft/${user.id}`);
         let allDrafts: Record<string, any> = {};

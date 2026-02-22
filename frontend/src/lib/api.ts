@@ -1,9 +1,11 @@
 /**
  * Centralized API client.
- * All backend calls go through here so the base URL is managed in one place.
+ * Uses a relative base so requests go through the Next.js rewrite proxy
+ * (/api/:path* → NEXT_PUBLIC_BACKEND_ORIGIN/api/:path*).
+ * This means no origin ever appears in the client bundle.
  */
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const API_BASE = "";
 
 export async function apiFetch<T>(
   path: string,
