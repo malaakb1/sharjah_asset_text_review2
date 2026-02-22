@@ -4,12 +4,15 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Proxy API calls to the FastAPI backend during development
   async rewrites() {
+    const backend =
+      process.env.NEXT_PUBLIC_BACKEND_ORIGIN?.trim() || "http://localhost:8000";
+
     return [
       {
         source: "/api/:path*",
-destination: `${process.env.NEXT_PUBLIC_API_URL}/api/:path*`,      },
+        destination: `${backend}/api/:path*`,
+      },
     ];
   },
 };
