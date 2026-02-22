@@ -21,6 +21,12 @@ const nextConfig = {
       process.env.NEXT_PUBLIC_BACKEND_ORIGIN?.trim() || "http://localhost:8000";
 
     return [
+      // Explicit rule for /api/v1/... (more specific, matched first)
+      {
+        source: "/api/v1/:path*",
+        destination: `${backend}/api/v1/:path*`,
+      },
+      // General rule for /api/... (catches anything else under /api)
       {
         source: "/api/:path*",
         destination: `${backend}/api/:path*`,

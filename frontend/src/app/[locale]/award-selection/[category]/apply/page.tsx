@@ -651,7 +651,7 @@ export default function RegistrationFormPage() {
 
     // Save ALL results to backend (qualified, unqualified, waiting-approval)
     try {
-      const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+      const API_BASE_URL = "/api/v1";
       const response = await fetch(`${API_BASE_URL}/auth/complete-registration/${user.id}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },

@@ -21,6 +21,7 @@ export default function CEOSection() {
                 src="/ceo/ceo.png"
                 alt="CEO"
                 fill
+                unoptimized
                 className="object-cover"
               />
             </div>
